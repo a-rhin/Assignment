@@ -7,14 +7,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container"><div>
+    <div class="container">
         <header>
         <h1 id="title">Survey-form</h1>
         <p id="description">We value your feedback. Please fill out the survey form below</p>
         </header>
-
-        <div>
-            <a href="/">Link</a>
+        <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+            placeholder="Enter your name" required>
         </div>
+         <lable for="name">Enter your name:</lable> 
+
+        </form>
+    </div>
 </body>
 </html>
